@@ -1,2 +1,2 @@
 ARG IMAGE_VERSION=${IMAGE_VERSION:-alpine}
-FROM gotenberg/gotenberg:7
+FROM vaultwarden/server:${IMAGE_VERSION}
